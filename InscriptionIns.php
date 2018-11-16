@@ -7,7 +7,7 @@ try
 		'root',
 		'');
 
-	 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $bdd->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
 $continue = true;
@@ -24,6 +24,7 @@ $fields = [
 	'taille',
 	'sport',
 	'travail',
+	'fitpot'
 ];
 
 foreach($fields as $field) {
@@ -58,8 +59,9 @@ if ($continue) {
 		Poids_Utilisateur,
 		Taille_Utilisateur, 
 		Niveau_Sport_Utilisateur,
-		Travail_Physique_Utilisateur)
-		VALUES(:nom, :prenom, :pseudo, :email, :sexe, :date, :motdepasse, :poids, :taille, :sport, :travail)');
+		Travail_Physique_Utilisateur,
+		Code_Fitpote_Utilisateur)
+		VALUES(:nom, :prenom, :pseudo, :email, :sexe, :date, :motdepasse, :poids, :taille, :sport, :travail, :fitpot)');
 
 	$req->execute([
 		':nom' => $_POST['nom'],
@@ -72,7 +74,8 @@ if ($continue) {
 		':poids' => $_POST['poids'],
 		':taille' => $_POST['taille'],
 		':sport' => $_POST['sport'],
-		':travail' => $_POST['travail']
+		':travail' => $_POST['travail'],
+		':fitpot' => $_POST['fitpot']
 	]);
 }
 
@@ -83,6 +86,6 @@ catch(Exception $e)
         die('Erreur : '.$e->getMessage());
 }
 
-header('Location: index.html');
+header('Location: index.php');
 
 ?>
