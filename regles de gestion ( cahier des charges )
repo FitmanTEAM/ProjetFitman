@@ -1,0 +1,46 @@
+regles de gestion ( cahier des charges )
+
+
+on aura un site internet de coaching sportif personnalisé !
+
+on aura deux utilisation possible; - en tant que simple visiteur ou en tant qu'inscrit !
+
+==========================================================================
+En tant que simple visiteur : on aura accés a une interface visiteur ( page d'accueil, conseils sportifs, recettes healthy, la possibilité de s'inscrire etc...)
+
+==========================================================================
+En tant qu'inscrit : 
+
+-  Lors de son inscription l'utilisateur renseignera, ses données perso , son poid et sa taille,son objectif etc.. puis aura accés au choix de l'avatar( entre une dizaine de fitboy ou fitgirl, chaque fitboy aura un ID different) ou il renseignera (un pseudo fitboy) ( Fitboy ou Fitgirl).
+- de maniére quotidienne et a chaque repas (midi, soir) l'inscrit renseignera ce qu'il a mangé.
+- On aura un avatar (fitboy) toujours présent sur la page en bas a droite.
+- L'inscrit se vera proposé chaque jour des exercices sportifs, et une proposition de repas adaptée a son objectif et a son repas précédent préalablement renseigné.
+- de plus il aura accés a des conseils personnalisés ( conseils sportif et conseils nutritifs)
+- de maniére hebdomadaire et pour optimiser le suivi de l'inscrit on lui demandera de resaisir son poid et son objectif.
+- a chaque fois qu'il se connectera, une pop-up s'ouvrira avec une phrase philosophique ( sportive ou nutritive) differente chaques jours.
+- Avant de lancer un exercice l'inscrit pourra si il le souhaite voir une vidéo de demonstration si il ne connait pas l'exercice en question.
+Au lancement de l'exercice on dira a l'inscit de se preparé ( sortir un tapis et se mettre en position etc...)
+puis il lancera l'exercice grace a un bouton prét.
+On vera apparaitre un fitprof dans une nouvelle page, ce dernier prés a faire l'exercice attendra quelques secondes avec un décompte puis lancera le chronométre et la musique, Fitprof fera l'exercice en méme temps que l'inscrit, l'exercice se deroulera en plusieurs series avec des séquences courtes de repos entre les series. ( pendant les sequence de repos fitprof se reposera aussi). Il y aura un bouton pause pour mettre l'exercice en pause A la fin de l'exercice, ce dernier sera validé et on pourra passer a l'erxercice suivant.
+- Une fois les exercices terminés l'inscrit retournera a la page d'accueil et pourra continuer a parcourir le site (Conseils sportif,nutrition et Recettes, les news du domaines( on essaira d'utiliser feedly pour cette liste de news)contacts).
+(- l'inscrit pourra partager son parcours dans une rubrique témoignage visible par les autres inscrits.)
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

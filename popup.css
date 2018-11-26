@@ -1,0 +1,52 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url("schwarzy.gif"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+}
+#prepare{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: orange;
+	background-color: grey;
+	font-size: 40px;
+	font-family: luminary, fantasy;
+
+
+}
+#pret{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	
+
+}
+#pret:hover {
+	
+	color: grey;
+
+}
+#pret {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 12px;
+    border: 1px solid #a12727;
+    border-radius: 8px;
+    background: #f08411;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f08411), to(#f0830e));
+    background: -moz-linear-gradient(top, #f08411, #f0830e);
+    background: linear-gradient(to bottom, #f08411, #f0830e);
+    text-shadow: #591717 0px 0px 1px;
+    font: italic normal bold 20px comic sans ms;
+    color: #000000;
+    text-decoration: none;
+}

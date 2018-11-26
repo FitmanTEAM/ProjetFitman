@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	text-align: justify;
+	background-color: black;
+}
+.TexteAside{
+	color: black;
+	font-size: 13px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.Liens{
+	display: flex;
+	flex-direction: column;
+	top: 314px;
+	width: 40px;
+	height: 130px;
+	position: fixed;
+	border-radius: 4px;
+	background-color: rgb(255,102,0);
+}
+.LiensImages{
+	width: 40px;
+	height: 30px;
+	margin-top: 5px;
+}
+.Header{
+	display: flex;
+	height: 314px;
+	background-image: url(images/pompe.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.Logo{
+	display: flex;
+	max-width: 15%;
+	padding: 10px;
+}
+.Navigation{
+}
+.Menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+.MenuLien{
+	display: flex;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	margin: 5px;
+	border-radius: 8px;
+	background-image: url(images/button.png);
+	background-color: rgb(255,102,0);
+}
+.MenuLien:hover{
+	color: white;
+}
+.Sidebar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	list-style-type: none;
+}
+.Contenu{
+	display: flex;
+	margin: 60px;
+	color: rgb(255,102,0);
+}
+.LienInscription{
+	text-decoration: none;
+	color: rgb(255,102,0);
+}
+.FitProf{
+	background-color: grey;
+	width: 50%;
+	margin-left: 30px;
+}
+.Footer{
+	text-align: center;
+	color: rgb(255,102,0);
+	font-size: 0.7em;
+	padding: .5em;
+}
+
+.Label{
+	display: inline-block;
+	width: 150px;
+}
+
+.ContactForm{
+	width: 450px;
+	margin: auto;
+	line-height: 2em;
+}
+
+.TextInput{
+	width: 290px;
+}
+
+.Right{
+	text-align: right;
+}
+
+input[type=submit]{
+	background: transparent;
+	color: white;
+	border: 1px solid;
+	border-radius: 3em;
+	padding: 0.3em
+}
+
+input[type=Submit]:hover{
+	color: lightblue;
+}
+
+textarea{
+	width: 290px;
+	vertical-align: baseline;
+	margin-bottom: 1em;
+	resize: none;
+	min-height: 5em;
+}

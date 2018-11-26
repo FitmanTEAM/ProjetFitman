@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Conseil sportif personnalisé - Fitman - Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<aside >
+			<div class="Liens">
+				<p class="TexteAside">Suis nous !</p>
+				<img src="images/facebook.png" class="LiensImages">
+				<img src="images/twitter.png" class="LiensImages">
+				<img src="images/youtube.png" class="LiensImages">
+			</div>
+		</aside>
+	<header class="Header">
+			<img src="images/logo.png" class="Logo">
+	</header>
+	<nav class="Navigation">
+		<ul class="Menu">
+				<li><a href="" class="MenuLien">Acceuil</a></li>
+				<li><a href="" class="MenuLien">Recettes</a></li>
+				<li><a href="" class="MenuLien">Exercices</a></li>
+				<li><a href="" class="MenuLien">Menus</a></li>
+				<li><a href="" class="MenuLien">Connexion</a></li>
+				<li><a href="inscription.html" class="MenuLien">Inscription</a></li>
+			</ul>
+	</nav>
+	<div class="Contenu">
+		<form method="post" action="contact.php" class="ContactForm">
+				<h1 class="H1">Contactez-nous !</h1>
+				<label for="Contact_Nom" class="Label">Nom :</label>
+				<input type="text" id="Contact_Nom" placeholder="Votre Nom" class="TextInput">
+				<br>
+				<label for=Contact_Prenom" class="Label">Prenom:</label>
+				<input type="text" id="Contact_Prenom" placeholder="Votre Prenom" class="TextInput">
+				<br>
+				<label for='Contact_Email' class="Label">Email :</label>
+				<input type="email" id="Contact_Email" placeholder="Email"  class="TextInput">
+				<br>
+				<label for=Contact_Message" class="Label">Votre message:</label>
+				<textarea id="Contact_Message"></textarea>
+				<br>
+				<label for="Contact_Subscribe" class="Label">NewLetters :</label>
+				<input type="Checkbox" id="Contact_Subscribe">
+				<br>
+				<div class="Right">
+				<input type="Submit" value="Envoyer">
+				</div>
+
+			</form>
+	</div>
+	<footer class="Footer">
+		<p>UDev 2018</p>
+	</footer>
+</body>
+</html>

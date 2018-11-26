@@ -1,0 +1,183 @@
+
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-image: url("dojo.jpg"); 
+	background-size: cover;
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
+
+}
+.tout{
+	background-color: white;
+
+
+
+
+}
+
+
+#reset{
+
+display: none;
+}
+
+#quitter{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+
+.fitprof{
+	
+	background-size: cover;
+	position: absolute;
+	top: 340px;
+	left: 490px;
+	height: 250px;
+	width: 250px;
+	
+	
+}
+.exo{
+	position: absolute;
+	top: 400px;
+	left: 490px;
+	width: 300px;
+	height: 240px;
+
+
+}
+
+
+
+
+
+
+.chronoForm{
+	display: flex;
+	flex direction: row
+	justify-content: flex-end;
+	align-items: flex-start;
+	
+
+
+}
+.chrono{
+		display: flex;
+	flex direction: row
+	justify-content: center;
+	align-items: flex-start;
+
+
+
+}
+.bouton{
+
+	
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+
+
+	
+	
+
+
+
+}
+.AUDIO{
+	display: none;
+
+
+
+}
+.bouton:focus {
+    background: #ff9e14;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff9e14), to(#ff9d11));
+    background: -moz-linear-gradient(top, #ff9e14, #ff9d11);
+    background: linear-gradient(to bottom, #ff9e14, #ff9d11);
+    color: #000000;
+    text-decoration: none;
+}
+
+.decompte{
+		font-size: 60px;
+		height: 100px;
+		width: 100px;
+		position: absolute;
+		top: 200px;
+		left: 590px;
+		color: orange;
+
+
+
+}
+#chronotime
+{	
+	display: flex;
+	display direction: row; 
+	align-items: center;
+	justify-content: flex-start; 
+	color: blue;
+	background-color: black;
+	border: none;
+	border-color: black;
+	font-size: 50px;
+	font-family: Luminari, fantasy;
+}
+#reset, #start,#quitter {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 12px;
+    border: 1px solid #a12727;
+    border-radius: 8px;
+    background: #f08411;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f08411), to(#f0830e));
+    background: -moz-linear-gradient(top, #f08411, #f0830e);
+    background: linear-gradient(to bottom, #f08411, #f0830e);
+    text-shadow: #591717 0px 0px 1px;
+    font: italic normal bold 20px comic sans ms;
+    color: #000000;
+    text-decoration: none;
+    font-family: Luminari, fantasy;
+}
+#quitter:hover {
+	
+	color: grey;}
+#start:hover {
+	
+	color: grey;
+
+}
+#reset:hover {
+	
+	color: grey;
+
+}
+#Crono {
+	color: black;
+
+
+}
+
+
+
+/*button{
+	border-radius: 2px;
+	border: 1px solid grey ;
+	background-color: black;
+	color: orange;
+	background-image: url();
+}
+button:hover {
+
+	background-color: orange;
+	color: black;
+}*/
