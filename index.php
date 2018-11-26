@@ -12,29 +12,29 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Conseil sportif personnalisé - Fitman</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="PageIndexEtProfil.css">
 </head>
 <body>
 	<!-- Barre de gauche avec les liens Fb, Twitter et YT -->
 	<aside >
 		<div class="Liens">
 			<a href="https://www.facebook.com/e.monsite"><img src="images/facebook.png" title="Facebook" class="LiensImages"></a>
-			<a href="https://twitter.com/Emonsite"><img src="images/twitter.png" title="Twitter" class="LiensImages"></a>
-			<a href="https://www.youtube.com/channel/UC78TrmL0AHjQ4lKO8IZcQhQ"><img src="images/youtube.png" title="YouTube" class="LiensImages"></a>
+			<a href="https://twitter.com/TiboInShape"><img src="images/twitter.png" title="Twitter" class="LiensImages"></a>
+			<a href="https://www.youtube.com/channel/UCpWaR3gNAQGsX48cIlQC0qw"><img src="images/youtube.png" title="YouTube" class="LiensImages"></a>
 		</div>
 	</aside>
 	<!-- Header du site avec le logo et une photo de fond -->
 	<header class="Header">
 		<img src="images/logo.png" class="Logo">
 		<?php
-		if (!$_SESSION ['pseudo']) {
-		echo '<div class="Formulaire">;
-        <form method="post" action="Connexion.php">;
-        <input type="text" class="Input" name="Pseudo_Utilisateur" id="Pseudo" placeholder="Pseudo ou Email">;
-        <input type="password" class="Input" id="Password" name="Pass_Utilisateur" placeholder="Mot de passe">;
-        <input type="submit" value="Connexion">;
-        </form>;
-        <a href="Inscription.php" class="TextInscription"> Vous n\'êtes pas inscrits ? Inscrivez vous dès maintenant !</a>;
+		if (empty($_SESSION ['pseudo'])) {
+		echo '<div class="Formulaire">
+        <form method="post" action="Connexion.php">
+        <input type="text" class="Input" name="Pseudo_Utilisateur" id="Pseudo" placeholder="Pseudo ou Email">
+        <input type="password" class="Input" id="Password" name="Pass_Utilisateur" placeholder="Mot de passe">
+        <input type="submit" value="Connexion">
+        </form>
+        <a href="Inscription.php" class="TextInscription"> Vous n\'êtes pas inscrits ? Inscrivez vous dès maintenant !</a>
 		</div>';
 		}
 		?>
@@ -77,7 +77,7 @@
 			<img src="images/fitprof.png" class="ImgFitProf">
 		</div>
 		<footer class="Footer">
-			<p>UDev 2018</p>
+			<p>Fitman UDev 2018</p>
 		</footer>
 		<script type="text/javascript" src="script.js"></script>
 	</body>

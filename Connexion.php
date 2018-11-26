@@ -15,7 +15,7 @@ $bdd = new PDO(
 
 
 $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $bdd->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+$bdd->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
 $pseudo = $_POST['Pseudo_Utilisateur'];
 $password = $_POST['Pass_Utilisateur'];
